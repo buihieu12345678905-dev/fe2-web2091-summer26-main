@@ -5,6 +5,8 @@ import { Modal } from "antd";
 import { useState } from "react";
 import { Layout } from "antd";
 import { Table } from "antd";
+import Lab2 from "./lab2/lab2";
+import Lab3 from "./lab3/lab3";
 
 function App() {
   const { Header, Content, Footer } = Layout;
@@ -62,6 +64,11 @@ const data = [
 
       {/* MAIN CONTENT */}
       <div className="max-w-6xl mx-auto mt-10 px-4 text-center">
+        <Lab2 />
+
+        <Lab3 />
+
+        
         <Button type="primary">Login</Button>
         <Button>Text</Button>
        <Form onFinish={onFinish}>
